@@ -1,0 +1,21 @@
+h4{color: rgb(11, 11, 171);
+font-size: 30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+/*Agregar diseño a toda la pagina*/
+body{
+    background-color: rgb(115, 147, 59) ;
+}
+ul{display: inline;
+}
+/*El caracter > indica un rango de etiquetas par modificar*/
+ul > li{margin: 2px 2px 2px 2px;
+}
+
+li{color: rgb(11, 11, 171);
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+/*Para acomodar la informacion de forma horizontal se utiliza las propiedades  DISPLAY FLEX y FLEX DIRECCION ROW*/

@@ -1,0 +1,39 @@
+/*Mandar llamar una fuente externa.*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*Selector, son las etiquetas de html p, h1, h2, video, audio
+*/
+/*Selector id y class se utilizan para identificar las etiquetas, 
+pero el nombre id se utiliza una sola vez*/
+/*El ; se pone para avisar que termino la accion*/
+body{background-color: rgb(254, 233, 202);
+}
+h1{color:rgb(112, 255, 207);/*Agrega color*/
+    font-size: 30px;/*Cambiar tamaño*/
+    font-family: 'Anton', sans-serif;/*Cambiar fuente*/
+    text-align: center;/*Alinear texto*/
+    background-color: blueviolet; /*Cambiar color de fondo*/
+}
+p{color: rgb(217, 132, 29);
+    font-size: 30px;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    width: 300px;
+    padding: 50px;
+    border: 1px solid red;
+}
+/*El caracter # manda llamar una id en css y el nombre del id del html*/
+#Parrafo1{color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: blue;
+}
+/*Para mandar llamar la clase es con un punto y el nombre de la clase.*/
+.Parrafo2{
+    color: rgb(167, 21, 21);
+    font-size: 30px;
+    font-family: cursive;
+    text-align: right;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="/contact.css">
+    </head>
+    <body>
+        <h4>Contact</h4>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <!--Agregar un formulario con la etiqueta form-->
+        <form>
+            <!--Agregar un texto y un cuadro para el formulario con la etiqueta label e intput-->
+            <label>Full name</label>
+            <!--el tipo de texto se compone de 4 tipos, text, number, email, button-->
+            <!--La propiedad placeholder es un ejemplo del intput-->
+            <!--La propiedad required marca que debe ser obligatoriamente completado-->
+            <input type="text" placeholder="Ingresa tu nombre completo" required>    
+            <!--Agregar un salto de linea-->
+            <br><br>
+            <label>Number phone</label>
+            <input type="number" placeholder="Ingresa tu numero de telefono" required>
+            <br><br>  
+            <label>Email</label> 
+            <input type="email" placeholder="ejemplo@gmail.com" required>
+            <br><br>
+            <!--Agregar la etiqueta textarea para agregar un recuadro donde ingresar un texto-->
+            <!--La propiedad cols agrega columnas en el cuadro-->
+            <!--La propiedad rows agrega filas en el cuadro-->
+            <label>Comments</label>
+            <textarea name="hola" id="" cols="50" rows="10" placeholder="Comments"></textarea>
+            <br><br>
+            <!--La propiedad value sirve para asignar el nombre ala botón-->
+            <!--El tipo de intput submit sirve para enviar la información-->
+            <input type="submit" value="send">
+        </form>
+    </body>
+
+</html>
